@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="progettoMP.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="it">
+<!--FILEDESC-->
+    <fileDesc>
+
+        <!--TITLESTMT-->
+      <titleStmt>
+          <title level="m" type ="main">Diari di Emanuele Artom p.168-172: trascrizione digitale</title>
+          <respStmt xml:id="editors">
+              <resp>Conversione TEI P5 a cura di:</resp>
+              <persName>
+                  <forename>Irene</forename>
+                  <surname>Poli</surname>
+              </persName>
+              <persName>
+                  <forename>Mihnea</forename>
+                  <forename>Sever</forename>
+                  <surname>Molnar</surname>
+              </persName>
+          </respStmt>
+      </titleStmt>
+
+      <!--EDITIONSTMT-->
+      <editionStmt>
+          <edition>
+              Nuova edizione creata da <affiliation>studenti della facoltà di <orgName>Informatica Umanistica dell'Università</orgName> di 
+              <placeName><settlement>Pisa</settlement></placeName></affiliation>
+          </edition>
+          <respStmt>
+              <resp>Edizione redatta per l'esame di Codifica di testi. Docente titolare del corso</resp>
+                  <persName>
+                      <forename>Angelo</forename>
+                      <forename>Mario</forename>
+                      <surname>Del Grosso</surname>
+                  </persName>
+              </respStmt>
+      </editionStmt>
+
+      <!--EXTENT-->
+      <extent>
+          <measure unit="pages">Pagine codificate: 168-172</measure>
+      </extent>   
+          
+      <!--PUBBLICATIONSTMT-->
+      <publicationStmt>
+          <authority>Università di Pisa</authority>
+          <pubPlace>Pisa</pubPlace> 
+          <date>2023</date>
+          <availability status="restricted"><ab>Riutilizzabile previa autorizzazione del proprietario della pubblicazione</ab></availability>
+      </publicationStmt>
+
+      <!--SERIESTMT-->
+      <seriesStmt>
+          <title level="s">Diari di Emanuele Artom: trascrizione digitale completa</title>
+      </seriesStmt>
+
+      <!--GLOSSARIO-->
+      <notesStmt>
+        <noteGrp>
+          <note xml:id ="termini">
+            <list type="Terminologia" rend="numbered">
+              <label>
+                  <term xml:id="crv" xml:lang="fr">Corvèe</term>
+                  <term ref="#crv" xml:lang="it">Corvata</term>
+              </label>
+              <item n="1">
+                  <gloss target="#crv" source="https://www.treccani.it/vocabolario/corvee/">
+                      Corvèe: Servizio di fatica assegnato a soldati.
+                  </gloss>
+              </item>
+              <label>
+                  <term ref="#naia" xml:lang="it">Naia</term>
+              </label>
+              <item n="2">
+                  <gloss target="#naia" source="https://it.wikipedia.org/wiki/Servizio_militare_di_leva_in_Italia">
+                      Naia: servizio militare di leva in Italia.
+                  </gloss>
+              </item>
+            </list>
+          </note>
+          <note xml:id ="persons">
+            <listPerson>
+              <person xml:id="PTRL">
+                <persName role="partigiano">
+                    <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Vincenzo_Modica_(partigiano)"/>
+                    <forename>Vincenzo</forename>
+                    <surname>Modica</surname>
+                    <addName type="nickname">Petralia</addName>
+                </persName> 
+              </person>
+              <person xml:id="BRBT">
+                <persName role="partigiano">
+                    <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Pompeo_Colajanni"/>
+                    <forename>Pompeo</forename>
+                    <surname>Colajanni</surname>
+                    <addName type="nickname">Barbato</addName>
+                </persName> 
+              </person>
+              <person xml:id="TSCNN">
+                <persName role="partigiano">
+                    <ref xml:lang="it" target="https://www.storiaememoriadibologna.it/mattioli-alfredo-494721-persona"/>
+                    <forename>Alfredo</forename>
+                    <surname>Mattioli</surname>
+                    <addName type="nickname">Toscanino</addName>
+                </persName> 
+              </person>
+            </listPerson>
+          </note>
+          <note xml:id ="place">
+            <listPlace>
+              <place xml:id="RR">
+                <placeName>Rorà</placeName>
+                <settlement>Torino</settlement>
+                <country>Italia</country>
+              </place>
+              <place xml:id="CVR">
+                <placeName>Cavour</placeName>
+                <settlement>Torino</settlement>
+                <country>Italia</country>
+              </place>
+            </listPlace>
+          </note>
+          <note xml:id ="libro">
+            <listBibl>
+              <bibl xml:id="FiloLeop">
+                <author ref="#AT">
+                  <forename>ADRIANO</forename> 
+                  <surname>TILGHER</surname>
+                </author>
+                <title type="main">La filosofia di Leopardi</title>
+                <pubPlace>
+                    <placeName xml:id="Tn">Torino</placeName>
+                </pubPlace>
+                <date when="1940">1940</date>
+                <publisher>Aragno</publisher>
+              </bibl>
+            </listBibl>
+          </note>
+          <note xml:id ="Org">
+            <listOrg>
+              <org>
+                <orgName>Partito d'Azione</orgName>
+                <desc>Il Partito d'Azione (PdA) è stato un partito politico italiano di centro-sinistra fondato nel 1942.</desc>
+              </org>
+              <org>
+                <orgName>Giustizia e Libertà</orgName>
+                <desc>Giustizia e Libertà fu un movimento politico liberal-socialista fondato a Parigi nell'agosto del 1929.</desc>
+              </org>
+              <org>
+                <orgName>Ragazzi del Littorio</orgName>
+                <desc>Si tratta di una organizzazione della gioventù fascista.</desc>
+              </org>
+            </listOrg>
+          </note>
+        </noteGrp> 
+      </notesStmt> 
+
+      <!--SOURCEDESC-->
+      <sourceDesc>
+          <bibl>
+              <title>Diari</title>
+              <author xml:id="author">
+                  <persName>
+                      <forename>Emanuele</forename>
+                      <surname>Artom</surname>
+                  </persName>          
+              </author>
+              <date xml:id="scritti" from="1943" to="1944">[1943]-1944</date>
+              <distributor>Fondazione Centro di Documentazione Ebraica Contemporanea CDEC onlus</distributor>
+              <pubPlace>Milano</pubPlace>, <date xml:id = "milano">1966</date>
+              <availability status="free">
+                  <ab>Disponibile presso il Centro di Documentazione Ebraica Contemporanea, consultabile online mediante il repository.</ab>
+              </availability>
+          </bibl>
+          <!-- Contiene la descrizione del manoscritto-->
+          <msDesc>
+              <msIdentifier>
+                  <!-- Organizzazione che mantiene il documento-->
+                  <institution>CDEC</institution>
+                  <!--Deposito che contiene il manoscritto -->
+                  <repository>Emanuele Artom, Diari</repository>
+              </msIdentifier>
+        <!-- Descrizione fisica del manoscritto-->
+              <physDesc>
+                  <objectDesc form="partial leaf">
+                      <supportDesc material="paper">
+                          <support>Fogli di <material>carta</material> di diverse tipologie</support>
+                      </supportDesc>
+                      <layoutDesc>
+                          <ab>La maggior parte delle pagine possiede 25 righe e alcune parti di testo aggiunte a lato o a fondo pagina</ab>
+                      </layoutDesc>
+                  </objectDesc>
+              </physDesc>
+          </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <!--PROFILEDESC-->
+    <profileDesc>
+        <langUsage>
+            <language ident="it">Italiano</language>
+        </langUsage>
+        <creation>
+            <date from="1943" to="1944">[1943]-1944</date>
+        </creation>
+        <!--(descrizione del testo) fornisce la descrizione di un testo in termini di paramentri situazionali-->
+        <textDesc>
+            <channel mode="w">Diari autografi</channel>
+            <constitution type="composite"/>
+            <derivation type="original"/>
+            <domain type="public">Diari personali di un partigiano scritti durante la Seconda Guerra Mondiale</domain>
+            <factuality type="fact"/>
+            <interaction type="none" active="singular" passive="self"/>
+            <preparedness type="none"/>
+            <purpose type="express" degree="high"/>
+      </textDesc>
+    </profileDesc>
+</teiHeader>
+  <!--IMMAGINI DIARI-->
+
+  <facsimile>
+  <!-- PAGINA 168-->
+    <surface>
+      <graphic xml:id="p168" url='img/p168.jpg' width='754px' height='1024px' />
+    </surface>
+    <!-- PAGINA 169-->
+    <surface>
+      <graphic xml:id="p169" url='img/p169.jpg' width='754px' height='1024px' />
+    </surface>
+    <!-- PAGINA 170-->
+    <surface>
+      <graphic xml:id="p170" url='img/p170.jpg' width='754px' height='1024px' />
+    </surface>
+    <!-- PAGINA 171-->
+    <surface>
+      <graphic xml:id="p171" url='img/p171.jpg' width='754px' height='1024px' />
+    </surface>
+    <!-- PAGINA 172-->
+    <surface>
+      <graphic xml:id="p172" url='img/p172.jpg' width='754px' height='1024px' />
+    </surface>
+  </facsimile>
+  <!-- TESTO DIARI -->
+  <text>
+    <body>
+      <pb n="168" facs="img/p168.jpg"/>
+      <ab xml:id="p-168">
+      <!--p168 è la foto della pagina, il contenuto è qua sotto:-->
+        <lb n="1"/>certo se ne hanno. 
+        <subst>
+          <del rend="overstrike">L'altro giorno</del> 
+          <add place="above">La scorsa settimana</add>
+        </subst>
+        , come 
+        <choice>
+          <sic>scrissinei</sic> 
+          <corr resp="#editors">scrissi nei</corr>
+        </choice> 
+        <lb n="2"/>fogli bruciati, un certo 
+        <persName>
+          <forename>
+            <abbr type="acronym">M.</abbr>
+          </forename>
+        </persName> di <num type="cardinal">25</num> anni <add place="above">panettiere</add> mi aveva 
+        <lb n="3"/>parlato in modo che mi sembrava <w>cosc<add place="inline">i</add>ente</w>, evoluto 
+        <lb n="4"/>e maturo di problemi sociali e politici. <gap reason="illegible" quantity="3" unit="chars"></gap>
+        <lb n="5"/>Si era anche venuti a trattare del divorzio,
+        <lb n="6"/><w>e<del rend="overstrike">d</del></w> si era espresso con grande buon senso. 
+        <choice>
+          <sic>Poio</sic> 
+          <corr resp="#editors">Poi</corr>
+        </choice> 
+        <lb n="7"/>una sera mi disse di volermi leggere certi 
+        <lb n="8"/>suoi scritti. A parte le orrende sgrammati=
+        <lb break="no" n="9"/>cature, quelli prima del <date>26 luglio</date>, che mi 
+        <lb n="10"/>propinò in gran numero uno dopo l’altro, 
+        <lb n="11"/>senza accorgersi che cadevo dal sonno <choice><sic>eche</sic> <corr resp="#editors">e che</corr></choice> 
+        <lb n="12"/>leggendoli perdevo ogni <subst><add place="above">stima</add> <del rend="overstrike">fiducia</del></subst> nell’autore, 
+        <lb n="13"/>sembravano tolti da un giornale fascista, 
+        <lb n="14"/>quelli dopo da uno clandestino e tutto 
+        <choice>
+          <sic><w>cio<add place="inline">è</add></w></sic> 
+          <corr resp="#editors">ciò</corr>
+        </choice> 
+        <lb n="15"/>in perfetta tranquillità, senza quasi 
+          <choice>
+            <sic>setare</sic> 
+            <corr resp="#editors">sentire</corr>
+          </choice> 
+        <lb n="16"/>le contraddizioni. <add place="above inline">Prima di cena</add> 
+        <lb n="17"/><del rend="overstrike">Sera</del> <del rend="overstrike"><add place="above">Alla sera</add></del> sottrassi qualche ora al mio lavoro 
+        <lb n="18"/>per discorrere di letteratura, di storia, di 
+        <lb n="19"/>morale, di religione con 
+        <persName>
+          <forename>Silvio</forename>
+        </persName>. Mi fece 
+        <lb n="20"/>leggere delle sue liriche, quasi 
+        <choice>
+          <sic>sepre</sic> <corr resp="#editors">sempre</corr>
+        </choice> 
+        <lb n="21"/>troppo astratte per essere poesia, <add place="above">un po’ contorte e oscure</add> ma ispirate ad 
+        <lb n="22"/>una altissima spiritualità. 
+        <add place="bottom"> 
+          <lb n="23"/>
+          <persName>
+            <forename>Silvio</forename>
+          </persName> parte da presupposti religiosi, io no. In questo 
+          <lb n="24"/>periodo una conversazione umanistica distrae, ristora 
+          <lb n="25"/>e riposa.
+        </add>
+        Credo che tenda
+      </ab>
+    
+      <pb n="169" facs="p169.jpg"/>
+      <ab xml:id="p-169">
+        <lb n="1"/>ad iscriversi al 
+          <choice>
+            <abbr type="acronym">P. d. A</abbr> 
+            <expan>Partito d'Azione</expan>
+          </choice>
+        . Io naturalmente non insisto, ma 
+        <add place="above">
+          <lb n="2"/>gli espongo sempre i vantaggi del 
+            <choice>  
+              <sic>prograa</sic><corr resp="#editors">programma</corr>
+            </choice>.
+        </add>
+        <lb n="3"/>Ho preso il criterio di non parlare mai di politica 
+        <lb n="4"/>con gli antipolitici, che si irritano e ri=
+        <lb break="no" n="5"/>spondono in pubblico con uno scetticismo 
+        <lb n="6"/>che 
+        <choice>
+          <sic>avvelena e conturba</sic>
+          <corr resp="#author" cert="high">conturba e avvelena</corr>
+        </choice>
+        i compagni presenti
+        <lb n="7"/>Se alla prima conversazione si presentano 
+        <lb n="8"/>refrattari in modo assoluto <w><subst><del rend="overwrite">r</del> <add place="inline">l</add></subst>i</w> lascio stare: 
+        <lb n="9"/>se mai può darsi che in futuro qualcuno venga 
+        <lb n="10"/>a cercarmi spontaneamente. Si <choice><sic>guadagno</sic> <corr resp="#editors">guadagna</corr></choice> di 
+        <lb n="11"/>più portando un carico, segando la legna, fa=
+        <lb break="no" n="12"/>cendo una 
+          <distinct>
+            <foreign xml:lang="fr">
+              <term ref="#crv"><w>co<subst><del rend="overwrite">o</del><add place="inline">r</add></subst>vée</w></term>
+            </foreign>
+          </distinct>
+        con loro, che non cento discorsi, 
+        <lb n="13"/>che me li <w>sta<subst><del rend="overstrike">c</del><add place="below">n</add></subst>cherebbero</w> solo: per amore di po=
+        <lb break="no" n="14"/>lemica, con il gusto di contraddirmi, <add place="above">discutendo</add> si <w><gap reason="illegible" quantity="5" unit="chars"></gap>=
+        <lb break="no" n="15"/><del rend="overstrike">dano</del></w> <del rend="overstrike"><w>sem</w></del> ficcano sempre più in testa le loro 
+        <lb n="16"/>idee <gap reason="illegible" quantity="1" unit="char"></gap>, come chiodi storti. Tuttavia vedo 
+        <lb n="17"/>che mi sono guadagnato la simpatia personale 
+        <lb n="18"/>di quasi tutti, anche <del rend="overstrike">dei più</del> degli apolitici, 
+        <lb n="19"/><del rend="overstrike">del gran numero</del> dei <add place="above" rend="smaller">molti</add> nemici 
+        <w>de<subst><del rend="overwrite">l</del><add place="inline">i</add></subst></w> partiti <del rend="overstrike">e</del> del 
+        <lb n="20"/><orgName>Fronte nazionale</orgName> e dei commissari, <del rend="overstrike">mostran</del>
+        <lb n="21"/>dichiarando che siccome non mi intendo di armi, 
+        <lb n="22"/>rinunziavo ad ogni ingerenza militare, ascoltando 
+        <lb n="23"/>tutti attentamente <subst><del rend="overstrike">e</del> <add place="above">,</add></subst> <del rend="overstrike">cercando di fa</del> occupandomi 
+        <lb n="24"/>del benessere materiale dei soldati – nei fogli 
+        <lb n="25"/>distrutti parlavo dell’<w>i<unclear reason="faded">n</unclear>sufficiente</w> alimentazione
+      </ab>
+
+    
+      <pb n="170" facs="p170.jpg"/>
+      <ab xml:id = "p-170">
+        <lb n="1"/>e dei miei sforzi per migliorarla, cercando di 
+        <lb n="2"/>farmi <del rend="overstrike">spesso</del> sempre idee chiare e spregiudicate. 
+        <lb n="3"/>In certi fogli di questo diario mi giudicavo 
+        <lb n="4"/>falso, interessato e vile; è vero <del rend="overstrike">e molt</del> perché 
+        <lb n="5"/>quasi tutte le mie azioni sono colorate e ispirate 
+        <lb n="6"/>a interessi personali, ma vedo che la massima parte 
+        <lb n="7"/>degli uomini è <add place="above">molto</add> meno onesta di me; ora la mia 
+        <lb n="8"/>relativa onestà mi attira molte persone, a cui 
+        <lb n="9"/>bisogna aggiungere, e qui <del rend="overstrike">non è</del> osservarlo 
+        <lb n="10"/>non è illudersi o darsi delle <choice><sic>ariè</sic><corr resp="#editors">arie</corr></choice>, la mia 
+        <lb n="11"/>superiorità culturale non solo sui soldati, ma 
+        <lb n="12"/>su <del rend="overstrike">tutti</del> quasi tutti gli ufficiali. Salvo 
+        <persName>
+          <forename>Silvio</forename>
+        </persName> e, 
+        <lb n="13"/>quando arriverà, 
+        <persName>
+          <forename>Giorgio</forename>
+        </persName>, gli altri sono 
+        <lb n="14"/>ignorantissimi, tutti o quasi tutti ragazzi 
+        <lb n="15"/>del Littorio, <gap reason="illegible" quantity="1" unit="char"></gap> che non sanno altro che quello 
+        <lb n="16"/>che hanno imparato a scuola, e per di più 
+        <lb n="17"/><choice><orig>abruttiti</orig><reg>abbruttiti</reg></choice>, <del rend="overstrike">di</del> qui bisogna adoperare la parola 
+        <lb n="18"/>di gergo, da qualche anno di <term ref="#naja"><soCalled><distinct type="gergo">&lt;&lt;naia&gt;&gt;</distinct></soCalled></term>.
+        <lb n="19"/>Può essere che in futuro questo mio spregiudicato 
+        <lb n="20"/>e pessimistico diario possa fare cattiva impressione: 
+        <lb n="21"/>si dica che io, <subst><del rend="overstrike">salendo</del> <add place="above">arrampicandomi</add></subst> per la montagna, mi 
+        <lb n="22"/>fermavo a osservare sterpi e sassi – i <w>brutt<subst><del rend="overtype">o</del><add place="inline">i</add></subst></w>
+      </ab>
+
+        
+      <pb n="171" facs="p171.jpg"/>
+      <ab xml:id = "p-171">
+        <lb n="1"/>episodi sono numerosi – e non guardavo la vetta 
+        <lb n="2"/>o il paesaggio. Errore, errore. <del rend="overstrike">Sal</del>Se non vedessi 
+        <lb n="3"/>vetta <unclear reason="faded" cert="high">o</unclear> paesaggio, non farei la dura salita, 
+        <lb n="4"/>ma per timore di 
+        <choice>
+          <orig>rettorica</orig> 
+          <reg>retorica</reg>
+        </choice> preferisco tacere gli 
+        <lb n="5"/>alti ideali. Tornerò su questo argomento. 
+        <lb n="6"/>Ed ora smetto. Ho scritto anche troppo e devo 
+        <lb n="7"/>completare un articolo preparato per il 
+        <lb n="8"/>nuovo giornale <del rend="overstrike">del <abbr>P.</abbr></del> che il 
+        <choice>
+            <abbr type="acronym">P. d. A</abbr>
+            <expan>Partito d'Azione</expan>
+        </choice> 
+        <unclear><del rend="overstrike">ati=</del></unclear>
+        <lb n="9"/><gap reason="illegible" quantity="1" unit="char"></gap> prepara per le bande: se ne è parlato do=
+        <lb break="no" n="10"/>menica: si <w>intitol<subst><del rend="overtype">erà</del><add place="inline">a</add></subst></w>
+        <orgName>Giustizia e Libertà</orgName>. Ho 
+        <lb n="11"/>raccomandato che gli articoli siano sempli=
+        <lb break="no" n="12"/>cissimi, tali che un soldato possa leggerli 
+        <lb n="13"/>senza difficoltà alcuna, non cadere nel 
+        <lb n="14"/>solito errore della astruseria <del rend="overstrike">dell'S</del> e della 
+        <lb n="15"/>complessità dell’<abbr><orgName>St. Lib.</orgName></abbr> e degli altri 
+        <lb n="16"/>stampati: ai <del rend="overstrike">sol</del> partigiani non parliamo 
+        <lb n="17"/>di massimalismo. Mi hanno promesso di 
+        <lb n="18"/>seguire il mio consiglio.
+        <lb n="19"/><del rend="overstrike">Nei</del> <del rend="overstrike">Tutti diano</del>
+        <space dim="horizontal"/> <num type="cardinal">20</num>
+        <lb n="20"/>Poche parole in fretta prima di partire.
+        <lb n="21"/>Sono le <num type="cardinal">7</num> di mattina. Due notti fa gli 
+        <lb n="22"/><del rend="overstrike">ufficia</del> uomini <del rend="overstrike">del</del> di 
+        <placeName>
+          <settlement>Rorà</settlement>
+        </placeName> fecero un buon
+        <lb n="23"/>colpo di grano e lardo utile all’autonomia 
+      </ab>
+
+    
+      <pb n="172" facs="p172.jpg"/>
+      <ab xml:id = "p-172">
+        <lb n="1"/>della base. La mattina scorsa fu mattina di 
+        <lb n="2"/>riposo. Lessi 
+        <bibl>
+          <title>la filosofia 
+            <choice>  
+              <sic>del</sic>
+              <corr resp="#editors">di</corr>
+            </choice> 
+            <persName>
+              <surname>Leopardi</surname>
+            </persName></title> 
+            di 
+            <author>
+              <persName>
+                <surname>Tilgher</surname>
+              </persName>
+            </author>
+        </bibl>. 
+        <lb n="3"/>Quando avrò finito ne riparlerò. Intanto si era 
+        <lb n="4"/>saputo che due uomini della squadra di 
+        <persName>
+          <addName type="nickname">Petralia</addName>
+        </persName> 
+        <lb n="5"/>avevano commesso furti a mano armata con altri 
+        <lb n="6"/><num type="cardinal">4</num> malfattori e i carabinieri chiedevano che fossero 
+        <lb n="7"/>allontanati dalla banda per arrestarli. <unclear reason="illegible" cert="low">Iuana</unclear> 
+        <lb n="8"/>intendevo già andare a trovar <persName><addName type="nickname">Petralia</addName></persName> per la 
+        <lb n="9"/>questione dei moschetti di <persName><addName type="nickname">Walter</addName></persName>, mi presi 
+        <lb n="10"/>un ragazzo come guida e venni alle sue basi. 
+        <lb n="11"/>Petralia e Pietro sono stati promossi di grado e 
+        <lb n="12"/>lavorano altrove. Ufficiale è ora 
+        <unclear reason="illegible">
+          <persName>
+          <!-- Vero nome del partigiano = Alfredo Mattioli, detto Toscanino-->
+            <addName type="nickname">Toscanino</addName>
+          </persName>
+        </unclear>, 
+        <lb n="13"/>come 
+        <persName>
+          <forename>Marco</forename> 
+          <abbr type="acronym"><surname>M.</surname></abbr>
+        </persName> 
+        Sui moschetti non sanno nulla. 
+        <lb n="14"/>Quanto ai malfattori, temono che se li consegnamo 
+        <lb n="15"/>ai 
+        <orgName>
+          <choice>
+            <sic>carabinieri</sic> 
+            <corr resp="#editors">Carabinieri</corr>
+          </choice>
+        </orgName>, <del rend="overstrike">dir</del> faranno rivelazioni sul 
+        <choice>
+          <sic>campae</sic> 
+          <corr resp="#editors">campo e</corr>
+        </choice> 
+        <lb n="16"/>sulle basi. Preferirebbero sopprimerli e <add place="above">per</add> intanto si 
+        <lb n="17"/>consiglieranno con 
+          <persName>
+          <!-- Vero nome del partigiano = Vincenzo Modica, detto Petralia-->
+            <addName type="nickname">Petralia</addName>
+          </persName> e 
+          <persName>
+          <!-- Vero nome del partigiano = Pompeo Cola Colajanni, detto Barbato-->
+            <addName type="nickname">Barbato</addName>
+          </persName>. Ho fatto 
+        <lb n="18"/>con loro molti discorsi filocomunisti per cancellare 
+        <lb n="19"/>la fama di anticomunista che mi sono fatto senza 
+        <lb n="20"/>ragione. Ne avevo lungamente parlato nei fogli distrutti, 
+        <lb n="21"/>presto ne parlerò di nuovo. Poi ho dormito in un letto 
+        <lb n="22"/>discreto. Dal giorno di <unclear><placeName><settlement>Cavour</settlement></placeName></unclear> ho dormito <num type="cardinal">2</num> notti
+        <lb n="23"/>consecutive nello stesso letto. Ho <choice><sic>raccontatto</sic><corr resp="#editors">raccontato</corr></choice> la 
+        <lb n="24"/>storia del <choice><abbr type="title">gen</abbr><expan>generale</expan></choice> 
+        <persName>
+          <addName>Lallà</addName>
+        </persName>, del 
+        <choice>
+          <sic>suacapitanoe</sic> 
+          <corr resp="#editors">suo capitano e</corr>
+        </choice> del sergente
+        <add xml:id="addLaterale" place="margin right">
+          <lb n="1"/>naturalmente essendo comunisti hanno disapprovato che li sia <w>lasciat<choice><sic>o</sic><corr resp="#editors">i</corr></choice></w> 
+          <lb n="2"/>andare, bisognava ucciderli. Io avevo sostenuto di essere generosi. Ho 
+          <lb n="3"/>notato <unclear reason="illegible" cert="medium">che</unclear> <unclear reason="illegible" cert="medium"><w><add place="above inline">al</add>le</w></unclear> condanne a morte sono sempre <gap reason="illegible" quantity="8" unit="chars"/> <unclear reason="illegible" cert="medium">quello</unclear> che non <unclear reason="illegible" cert="medium">devono</unclear> 
+          <lb n="4"/>emanarle, ma <gap reason="illegible" quantity="12" unit="chars"/> solo.
+        </add>
+      </ab>
+    </body>
+  </text>
+
+</TEI>
